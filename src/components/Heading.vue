@@ -28,7 +28,8 @@
 import AddNoteButton from "@/components/AddNoteButton";
 export default {
   name: "Heading",
-  components: {AddNoteButton}
+  components: {AddNoteButton},
+  
 }
 </script>
 

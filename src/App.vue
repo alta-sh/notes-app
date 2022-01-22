@@ -3,12 +3,8 @@
     <v-app-bar app absolute flat dark>
      <Heading></Heading>
     </v-app-bar>
-  
-    <v-content>
-        <FilterNotes></FilterNotes>
-    </v-content>
-    
     <v-main>
+      <FilterNotes></FilterNotes>
     </v-main>
   </v-app>
 </template>

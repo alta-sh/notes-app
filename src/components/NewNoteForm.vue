@@ -8,12 +8,6 @@
         max-width="650"
     >
       <v-card>
-        <v-row justify="space-between" class="ma-1">
-          <v-spacer/>
-          
-        </v-row>
-
-
         <v-card-text class="ma-0 pl-2 pr-1 pr-sm-1 pt-1">
           <v-form
           ref="form"
@@ -35,9 +29,8 @@
               </v-col>
               
               <v-col cols="5">
-                <p class="text-sm-center font-weight-bold blue-grey--text text--lighten-4">{{dateTime}}</p>
+                <p class="text-sm-center font-weight-bold blue-grey--text text--lighten-3">{{dateTime}}</p>
               </v-col>
-              
               
               <v-col cols="1" class="pt-1 pr-1">
                 <v-btn @click="closeModal()" class="float-right" small icon color="red">
@@ -45,7 +38,6 @@
                 </v-btn>
               </v-col>
             </v-row>
-            
             
             <v-textarea
                 v-model="noteContent"
@@ -75,7 +67,6 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-  
 </template>
 
 <script>
@@ -132,7 +123,4 @@ export default {
 </script>
 
 <style scoped>
-.border {
-  border-bottom: 1px solid rgba(255, 138, 101, 0.4);
-}
 </style>

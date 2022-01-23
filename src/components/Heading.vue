@@ -1,7 +1,7 @@
 ﻿<template>
   <v-container>
     <div class="row justify-space-between align-center">
-      <span id="site-title" class="display-1">Notes App</span>
+      <span id="site-title" class="display-1">Notes App <v-icon class="small-font" small>📖</v-icon></span>
       
       <v-col
           cols="4"
@@ -34,4 +34,7 @@ export default {
 </script>
 
 <style scoped>
+.small-font {
+  font-size: 24px;
+}
 </style>

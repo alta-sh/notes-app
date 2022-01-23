@@ -1,4 +1,6 @@
-# app
+# Notes app
+
+Desc coming soon...
 
 ## Project setup
 ```
